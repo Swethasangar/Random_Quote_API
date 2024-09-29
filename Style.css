@@ -1,0 +1,48 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #cf1259;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 2rem;
+  font-size: 1.2rem;
+}
+.quote_container {
+  background-color: aliceblue;
+  padding: 4rem 1.5rem;
+  border-radius: 20px;
+  width: 50%;
+}
+.quote_container h2 {
+  margin-bottom: 20px;
+}
+.quote_container blockquote {
+  padding: 10px 0;
+}
+.quote_container cite {
+  display: block;
+  font-style: normal;
+  margin-bottom: 10px;
+}
+.quote_container button {
+  border-radius: 20px;
+  padding: 10px;
+  margin-top:10px;
+  outline: none;
+  border: none;
+  background-color: #404E5C;
+  color: aliceblue;
+  cursor: pointer;
+}
+@media screen and (max-width:600px){
+  .quote_container{
+    width:600px;
+  }
+}
+
